@@ -2,7 +2,7 @@ D3 Reusable Line Chart
 =======================
 This implementation uses d3 v3. Upgrade to v4 to come.
 
-The D3 Reusable Line Chart was created while at Spotfund to display time series information about Key Performance Indicators.
+The D3 Reusable Line Chart was created while at [Spotfund](http://www.spotfund.com) to display time series information about Key Performance Indicators.
 
 It can take any type of data in a time series, so long as the first column is the date.
 
