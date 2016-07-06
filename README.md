@@ -29,6 +29,7 @@ chart.updateFromLocal(i)
 url = 'https://www.example.com/api2/'
 // load new data from API
 chart.updateFromDB(url)
+```
 
 ##Bells and Whistles
 =======================
@@ -36,3 +37,8 @@ chart.updateFromDB(url)
 - `tooltips` - each data point displays a tooltip on mouseover
 - `quick-changing fields` - change displayed data without reloading data from a new file
 - `dynamic y-axis label and title` - y-axis and chart title change on data change
+
+##Recommended Use
+=======================
+
+The line chart is best used with dropdown buttons to choose date ranges and fields that you want loaded.  The fields button would ideally call `chart.updateFromLocal(i)`, and the date ranges would call `chart.updateFromDB(url)`
