@@ -39,7 +39,8 @@ The best part of the line chart, aside from its dynamic loading of data, is its 
 The line chart is best used with dropdown buttons to choose date ranges and fields that you want loaded.  The fields button would ideally call `chart.updateFromLocal(i)`, and the date ranges would call `chart.updateFromDB(url)`
 
 The following margins are best suited for accomodating the titles and axis labels: `margin = {top: 30, right: 30, bottom: 100, left: 80}`
-If you plan on placing your chart inside a container div, you can make it always fit inside of the div by setting `width` and `height` to: ```css
+If you plan on placing your chart inside a container div, you can make it always fit inside of the div by setting `width` and `height` to:
+```css
 width = parseInt($('div.content.container').css('width'), 10) - margin.left - margin.right - 20,
 height = parseInt($('div.content.container').css('width'), 10)*0.60 - margin.top - margin.bottom;
 ```
