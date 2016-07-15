@@ -3,6 +3,7 @@
 //     as well as loading new data given a URL
 //   Date must be the first field. Easily changeable if you understand d3
 //
+// Credit for the trend line goes to Ben VanDyke: http://bl.ocks.org/benvandyke/8459843
 // This module was written in d3 v3, not v4.
 
 
