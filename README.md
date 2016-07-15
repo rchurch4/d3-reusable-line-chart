@@ -34,6 +34,7 @@ The best part of the line chart, aside from its dynamic loading of data, is its 
 - `tooltips` - each data point displays a tooltip on mouseover
 - `quick-changing fields` - change displayed data without reloading data from a new file
 - `dynamic y-axis label and title` - y-axis and chart title change on data change
+- `trend line` - a trend line that can be turned off by calling `chart.removeTrendLine()`, and added back by calling `chart.addTrendLine()`.  Default is on.  The two functions enable you to easily make the trend line toggleable.
 
 ##Recommended Use
 The line chart is best used with dropdown buttons to choose date ranges and fields that you want loaded.  The fields button would ideally call `chart.updateFromLocal(i)`, and the date ranges would call `chart.updateFromDB(url)`
